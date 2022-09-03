@@ -3,7 +3,6 @@
 }
 html, body {
     max-width: 100% !important;
-    overflow-x: hidden !important;
 }
 @font-face {
 	font-family: "Quicksand_Bold";
@@ -170,4 +169,114 @@ img.barras{
 	position: relative;
 	transform: translate(-82%, 2px);
 }
+}
+/*--------Media query End---------*/
+
+#menus {
+	display: block;
+	position: relative;
+}
+
+#entradas {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: #E8A3B1;
+	z-index: 3;
+}
+
+#entradasText {
+	font-family: "Quicksand_Bold";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14.5px;
+	margin-left: -98.86px;
+	font-size: 1.6em;
+}
+#saladas {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: #35313C;
+	top:60px;
+}
+#saladasText {
+	font-family: "Quicksand_Bold";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14.5px;
+	margin-left: -85.055px;
+	font-size: 1.6em;
+}
+#pizzas {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: #F6D73E;
+	top:120px;
+}
+#pizzasText {
+	font-family: "Quicksand_Bold";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14.5px;
+	margin-left: -153.235px;
+	font-size: 1.6em;
+}
+#sobremesa {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: #35313C;
+	top:180px;
+}
+
+#sobremesaText {
+	font-family: "Quicksand_Bold";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14.5px;
+	margin-left: -124.85px;
+	font-size: 1.6em;
+}
+
+#bebidas {
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	background-color: #A1CEE3;
+	top:240px;
+}
+#bebidasText {
+	font-family: "Quicksand_Bold";
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -14.5px;
+	margin-left: -79.54px;
+	font-size: 1.6em;
 }
