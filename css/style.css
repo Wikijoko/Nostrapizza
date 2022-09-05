@@ -309,14 +309,13 @@ img.barras{
 	color: #939598;
 	position: absolute;
 	top: 20px;
-	margin-left: -114.315;
-	left: 50%;
+	transform: translate(21%, 0);
 }
 
 #footerText1 a{
 	color: #939598;
-	margin-left: 10px;
+	margin-left: 5px;
 	text-decoration: none;
 	font-family: "Quicksand_Bold";
-	font-size: .6em
+	font-size: .8em;
 }
