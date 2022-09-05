@@ -189,7 +189,7 @@ img.barras{
 #entradas {
 	position: absolute;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background-color: #E8A3B1;
 	z-index: 3;
 }
@@ -203,16 +203,16 @@ img.barras{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -14.5px;
+	margin-top: -11.5px;
 	margin-left: -98.86px;
 	font-size: 1.6em;
 }
 #saladas {
 	position: absolute;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background-color: #35313C;
-	top:60px;
+	top:80px;
 }
 #saladasText {
 	font-family: "Quicksand_Bold";
@@ -223,16 +223,16 @@ img.barras{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -14.5px;
+	margin-top: -11.5px;
 	margin-left: -85.055px;
 	font-size: 1.6em;
 }
 #pizzas {
 	position: absolute;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background-color: #F6D73E;
-	top:120px;
+	top:160px;
 }
 #pizzasText {
 	font-family: "Quicksand_Bold";
@@ -243,16 +243,16 @@ img.barras{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -14.5px;
+	margin-top: -11.5px;
 	margin-left: -153.235px;
 	font-size: 1.6em;
 }
 #sobremesa {
 	position: absolute;
 	width: 100%;
-	height: 60px;
+	height: 80px;
 	background-color: #35313C;
-	top:180px;
+	top:240px;
 }
 
 #sobremesaText {
@@ -264,7 +264,7 @@ img.barras{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -14.5px;
+	margin-top: -11.5px;
 	margin-left: -124.85px;
 	font-size: 1.6em;
 }
@@ -272,9 +272,9 @@ img.barras{
 #bebidas {
 	position: absolute;
 	width: 100%;
-	height: 80px;
+	height: 100px;
 	background-color: #A1CEE3;
-	top:240px;
+	top:320px;
 }
 #bebidasText {
 	font-family: "Quicksand_Bold";
@@ -285,7 +285,7 @@ img.barras{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -14.5px;
+	margin-top: -18.5px;
 	margin-left: -79.54px;
 	font-size: 1.6em;
 }
@@ -297,7 +297,7 @@ img.barras{
 	width: 100%;
 	height: 80px;
 	background-color: #35313C;
-	top: 300px;
+	top: 400px;
 	border-top-left-radius: 1.5em;
 	border-top-right-radius: 1.5em;
 	text-decoration: none;
