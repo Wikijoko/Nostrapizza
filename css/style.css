@@ -87,8 +87,7 @@ img.barras{
 .telefono {
 	width: 20px;
 	height: 18px;
-	/*filter: invert(18%) sepia(4%) saturate(2116%) hue-rotate(220deg) brightness(95%) contrast(93%);
-*/
+	color: black;
 	position: absolute;
 	right: 150px;
 	top: 15px;
@@ -186,21 +185,21 @@ img.barras{
 	width: 170px;
 	height: 65px;
 	position: relative;
-	transform: translate(-7%, -40px);
+	transform: translate(-7%, -20px);
 	z-index: 2;
 }
 #boton2 {
 	width: 170px;
 	height: 65px;
 	position: relative;
-	transform: translate(-38%, -40px);
+	transform: translate(-38%, -20px);
 	z-index: 1;
 }
 #boton3 {
 	width: 160px;
 	height: 65px;
 	position: relative;
-	transform: translate(-80%, -40px);
+	transform: translate(-80%, -20px);
 }
 }
 /*--------Media query End---------*/
@@ -275,7 +274,7 @@ img.barras{
 	left: 50%;
 	margin-top: -11.5px;
 	margin-left: -153.235px;
-	font-size: 1.6em;
+	font-size: 1.4em;
 }
 #sobremesa {
 	position: absolute;
@@ -366,10 +365,11 @@ img.barras{
 }
 #footer2 a{
 	color: #969696;
-	font-size: 6pt;
+	font-size: .5em;
 	font-weight: bold;
 	text-decoration: none;
-	font-family: "Quicksand_Light"
+	font-family: "Quicksand_Light";
+	font-stretch: 1px;
 }
 #phoneContact {
 	position: relative;
@@ -392,4 +392,10 @@ img.barras{
 	top: 3px;
 	margin-right: 3px;
 	height: 10px;
+}
+@media (min-width: 320px) and (max-width: 350px){
+	#footer2 a{
+		font-size: 0.35em;
+		font-stretch: .1em;
+	}
 }
