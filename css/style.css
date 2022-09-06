@@ -309,7 +309,9 @@ img.barras{
 	color: #939598;
 	position: absolute;
 	top: 20px;
-	transform: translate(21%, 0);
+	width: 100%;
+	display: flex;
+	justify-content: center;
 }
 
 #footerText1 a{
