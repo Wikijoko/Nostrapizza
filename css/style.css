@@ -185,21 +185,21 @@ img.barras{
 	width: 170px;
 	height: 65px;
 	position: relative;
-	transform: translate(-7%, -20px);
+	transform: translate(-7%, -40px);
 	z-index: 2;
 }
 #boton2 {
 	width: 170px;
 	height: 65px;
 	position: relative;
-	transform: translate(-38%, -20px);
+	transform: translate(-38%, -40px);
 	z-index: 1;
 }
 #boton3 {
 	width: 160px;
 	height: 65px;
 	position: relative;
-	transform: translate(-80%, -20px);
+	transform: translate(-80%, -40px);
 }
 }
 /*--------Media query End---------*/
