@@ -67,6 +67,7 @@ div.menu {
 }
 .text {
 	font-family: "Quicksand_Bold";
+	text-decoration: none;
 	position: absolute;
 	right: 55px;
 	text-align: center;
@@ -320,4 +321,20 @@ img.barras{
 	text-decoration: none;
 	font-family: "Quicksand_Bold";
 	font-size: .8em;
+}
+#footer2 {
+	width: 100%;
+	position:relative;
+	top: 440px;
+	text-decoration: none;
+	color: #939598;
+	display: flex;
+	justify-content: space-between;
+}
+#footer2 a{
+	color: #939598;
+	font-size: .8em;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-decoration: none;
 }
