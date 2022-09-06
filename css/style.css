@@ -367,8 +367,9 @@ img.barras{
 }
 #phoneContact {
 	position: relative;
-	top: 5px;
+	top: 3px;
 	margin-right: 3px;
+	margin-left: 6px;
 	height: 10px;
 }
 #instagram{
@@ -376,6 +377,9 @@ img.barras{
 	top: 3px;
 	margin-right: 3px;
 	height: 10px;
+}
+#email {
+	margin-right: 6px;
 }
 #emailcontact {
 	position: relative;
