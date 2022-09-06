@@ -114,24 +114,24 @@ img.barras{
 	bottom: -20px;
 }
 #boton1 {
-	width: 175px;
-	height: 75px;
+	width: 170px;
+	height: 70px;
 	position: relative;
-	transform: translate(-3%, 2px);
+	transform: translate(-3%, -20px);
 	z-index: 2;
 }
 #boton2 {
 	width: 180px;
-	height: 75px;
+	height: 70px;
 	position: relative;
-	transform: translate(-28%, 2px);
+	transform: translate(-26%, -20px);
 	z-index: 1;
 }
 #boton3 {
-	width: 175px;
-	height: 75px;
+	width: 170px;
+	height: 70px;
 	position: relative;
-	transform: translate(-60%, 2px);
+	transform: translate(-57%, -20px);
 }
 /*---------------Media query------------------*/
 @media (max-width:400px) {
@@ -139,21 +139,21 @@ img.barras{
 	width: 175px;
 	height: 75px;
 	position: relative;
-	transform: translate(-7%, 2px);
+	transform: translate(-7%, -35px);
 	z-index: 2;
 }
 #boton2 {
 	width: 180px;
 	height: 75px;
 	position: relative;
-	transform: translate(-35%, 2px);
+	transform: translate(-35%, -35px);
 	z-index: 1;
 }
 #boton3 {
 	width: 180px;
 	height: 75px;
 	position: relative;
-	transform: translate(-75%, 2px);
+	transform: translate(-75%, -35px);
 }
 }
 @media (max-width:375px) {
@@ -161,21 +161,21 @@ img.barras{
 	width: 175px;
 	height: 75px;
 	position: relative;
-	transform: translate(-7%, 2px);
+	transform: translate(-7%, -35px);
 	z-index: 2;
 }
 #boton2 {
 	width: 180px;
 	height: 75px;
 	position: relative;
-	transform: translate(-38%, 2px);
+	transform: translate(-38%, -35px);
 	z-index: 1;
 }
 #boton3 {
 	width: 180px;
 	height: 75px;
 	position: relative;
-	transform: translate(-82%, 2px);
+	transform: translate(-82%, -35px);
 }
 }
 /*--------Media query End---------*/
