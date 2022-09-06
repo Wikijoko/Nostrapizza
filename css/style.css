@@ -185,21 +185,21 @@ img.barras{
 	width: 170px;
 	height: 65px;
 	position: relative;
-	transform: translate(-7%, -40px);
+	transform: translate(-7%, -20px);
 	z-index: 2;
 }
 #boton2 {
 	width: 170px;
 	height: 65px;
 	position: relative;
-	transform: translate(-38%, -40px);
+	transform: translate(-38%, -20px);
 	z-index: 1;
 }
 #boton3 {
 	width: 160px;
 	height: 65px;
 	position: relative;
-	transform: translate(-80%, -40px);
+	transform: translate(-80%, -20px);
 }
 }
 /*--------Media query End---------*/
@@ -395,7 +395,7 @@ img.barras{
 }
 @media (min-width: 320px) and (max-width: 350px){
 	#footer2 a{
-		font-size: 0.35em;
+		font-size: 5pt;
 		font-stretch: .1em;
 	}
 }
