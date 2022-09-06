@@ -396,6 +396,5 @@ img.barras{
 @media (min-width: 320px) and (max-width: 350px){
 	#footer2 a{
 		font-size: 5pt;
-		font-stretch: .1em;
 	}
 }
