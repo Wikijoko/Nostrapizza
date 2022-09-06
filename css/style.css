@@ -15,7 +15,10 @@ html, body {
 	font-family: "Quicksand_Bold";
 	src: url(font/Quicksand_Bold.otf);
 }
-
+@font-face {
+	font-family: "Quicksand_Light";
+	src: url(font/Quicksand_Light.otf);
+}
 body {
 	margin: 0;
 }
@@ -218,7 +221,7 @@ img.barras{
 }
 
 #entradasText {
-	font-family: "Quicksand_Bold";
+	font-family: "Quicksand_Light";
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -234,11 +237,12 @@ img.barras{
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #35313C;
+	background-color: #909295;
+	opacity: .9;
 	top:80px;
 }
 #saladasText {
-	font-family: "Quicksand_Bold";
+	font-family: "Quicksand_Light";
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -258,7 +262,7 @@ img.barras{
 	top:160px;
 }
 #pizzasText {
-	font-family: "Quicksand_Bold";
+	font-family: "Quicksand_Light";
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -274,12 +278,13 @@ img.barras{
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #35313C;
+	background-color: #909295;
+	opacity: .9;
 	top:240px;
 }
 
 #sobremesaText {
-	font-family: "Quicksand_Bold";
+	font-family: "Quicksand_Light";
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -300,7 +305,7 @@ img.barras{
 	top:320px;
 }
 #bebidasText {
-	font-family: "Quicksand_Bold";
+	font-family: "Quicksand_Light";
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -319,7 +324,7 @@ img.barras{
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #35313C;
+	background-color: #4D4D4D;
 	top: 400px;
 	border-top-left-radius: 1.5em;
 	border-top-right-radius: 1.5em;
@@ -338,12 +343,13 @@ img.barras{
 }
 
 #footerText1 a{
-	color: #939598;
+	color: #969696;
 	margin-left: 5px;
 	text-decoration: none;
-	font-family: "Quicksand_Bold";
+	font-family: "Quicksand_Light";
 	font-size: .8em;
-}
+	font-weight: 0.5pt;
+}	
 #footer2 {
 	width: 100%;
 	position:relative;
@@ -354,9 +360,26 @@ img.barras{
 	justify-content: space-between;
 }
 #footer2 a{
-	color: #939598;
-	font-size: .8em;
-	margin-left: 10px;
-	margin-right: 10px;
+	color: #969696;
+	font-size: 6pt;
 	text-decoration: none;
+	font-family: "Quicksand_Light"
+}
+#phoneContact {
+	position: relative;
+	top: 5px;
+	margin-right: 3px;
+	height: 10px;
+}
+#instagram{
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+	height: 10px;
+}
+#emailcontact {
+	position: relative;
+	top: 3px;
+	margin-right: 3px;
+	height: 10px;
 }
