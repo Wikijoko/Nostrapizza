@@ -222,6 +222,7 @@ img.barras{
 
 #entradasText {
 	font-family: "Quicksand_Light";
+	font-weight: bold;
 	text-decoration: none;
 	color: white;
 	text-transform: uppercase;
@@ -244,6 +245,7 @@ img.barras{
 #saladasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
+	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 8px;
@@ -264,6 +266,7 @@ img.barras{
 #pizzasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
+	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 8px;
@@ -286,6 +289,7 @@ img.barras{
 #sobremesaText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
+	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 8px;
@@ -307,6 +311,7 @@ img.barras{
 #bebidasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
+	font-weight: bold;
 	color: white;
 	text-transform: uppercase;
 	letter-spacing: 8px;
@@ -348,7 +353,7 @@ img.barras{
 	text-decoration: none;
 	font-family: "Quicksand_Light";
 	font-size: .8em;
-	font-weight: 0.5pt;
+	font-weight: 700;
 }	
 #footer2 {
 	width: 100%;
@@ -362,6 +367,7 @@ img.barras{
 #footer2 a{
 	color: #969696;
 	font-size: 6pt;
+	font-weight: bold;
 	text-decoration: none;
 	font-family: "Quicksand_Light"
 }
