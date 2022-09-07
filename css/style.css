@@ -362,7 +362,7 @@ img.barras{
 	text-decoration: none;
 	color: #939598;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 }
 #footer2 a{
 	color: #969696;
@@ -371,6 +371,7 @@ img.barras{
 	text-decoration: none;
 	font-family: "Quicksand_Light";
 	font-stretch: 1px;
+	margin-right: 6px;
 }
 #phoneContact {
 	position: relative;
