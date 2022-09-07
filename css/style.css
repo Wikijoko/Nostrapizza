@@ -113,26 +113,25 @@ img.barras{
 
 /*----------Aplicaciones-----------*/	
 
-#aplicaciones {
+div#aplicaciones {
 	display: flex;
-	position: absolute;
-	bottom: -20px;
+	transform: translate(0,-20px);
 }
-#boton1 {
+.boton1 {
 	width: 170px;
 	height: 70px;
 	position: relative;
 	transform: translate(-3%, -20px);
 	z-index: 2;
 }
-#boton2 {
+.boton2 {
 	width: 180px;
 	height: 70px;
 	position: relative;
 	transform: translate(-26%, -20px);
 	z-index: 1;
 }
-#boton3 {
+.boton3 {
 	width: 170px;
 	height: 70px;
 	position: relative;
@@ -212,6 +211,7 @@ img.barras{
 #menus {
 	display: block;
 	position: relative;
+	top: -57px;
 }
 
 #entradas {
