@@ -140,21 +140,21 @@ div#aplicaciones {
 }
 /*---------------Media query------------------*/
 @media (max-width:400px) {
-	#boton1 {
+	.boton1 {
 	width: 175px;
 	height: 75px;
 	position: relative;
 	transform: translate(-7%, -20px);
 	z-index: 2;
 }
-#boton2 {
+.boton2 {
 	width: 180px;
 	height: 75px;
 	position: relative;
 	transform: translate(-35%, -20px);
 	z-index: 1;
 }
-#boton3 {
+.boton3 {
 	width: 200px;
 	height: 75px;
 	position: relative;
@@ -162,21 +162,21 @@ div#aplicaciones {
 }
 }
 @media (max-width:375px) {
-	#boton1 {
+	.boton1 {
 	width: 175px;
 	height: 75px;
 	position: relative;
 	transform: translate(-7%, -20px);
 	z-index: 2;
 }
-#boton2 {
+.boton2 {
 	width: 180px;
 	height: 75px;
 	position: relative;
 	transform: translate(-38%, -20px);
 	z-index: 1;
 }
-#boton3 {
+.boton3 {
 	width: 180px;
 	height: 75px;
 	position: relative;
@@ -184,21 +184,21 @@ div#aplicaciones {
 }
 }
 @media (min-width: 320px) and (max-width: 354px){
-	#boton1 {
+	.boton1 {
 	width: 170px;
 	height: 65px;
 	position: relative;
 	transform: translate(-7%, -20px);
 	z-index: 2;
 }
-#boton2 {
+.boton2 {
 	width: 170px;
 	height: 65px;
 	position: relative;
 	transform: translate(-38%, -20px);
 	z-index: 1;
 }
-#boton3 {
+.boton3 {
 	width: 160px;
 	height: 65px;
 	position: relative;
