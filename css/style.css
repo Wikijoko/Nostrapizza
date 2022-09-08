@@ -94,9 +94,7 @@ img.barras{
 	height: 18px;
 	color: black;
 	position: absolute;
-	right: 122px;
-	margin-right: 5px;
-	top: 15px;
+	transform: translate(-150px,15px);
 	opacity: 1;
 }
 /*----------Logo-----------*/
