@@ -183,26 +183,26 @@ div#aplicaciones {
 	transform: translate(-82%, -20px);
 }
 }
-@media (min-width: 320px) and (max-width: 354px){
+@media (min-width: 320px) and (max-width: 360px){
 	.boton1 {
-	width: 170px;
-	height: 65px;
+	width: 165px;
+	height: 63px;
 	position: relative;
 	transform: translate(-7%, -20px);
 	z-index: 2;
 }
 .boton2 {
-	width: 170px;
-	height: 65px;
+	width: 165px;
+	height: 63px;
 	position: relative;
-	transform: translate(-38%, -20px);
+	transform: translate(-36%, -20px);
 	z-index: 1;
 }
 .boton3 {
-	width: 160px;
-	height: 65px;
+	width: 165px;
+	height: 63px;
 	position: relative;
-	transform: translate(-80%, -20px);
+	transform: translate(-75%, -20px);
 }
 }
 /*--------Media query End---------*/
