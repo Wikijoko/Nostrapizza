@@ -369,24 +369,23 @@ div#aplicaciones {
 }
 #footer2 a{
 	color: #969696;
-	font-size: 5pt;
+	font-size: 7pt;
 	font-weight: bold;
 	text-decoration: none;
-	font-family: "Quicksand_Light";
 	font-stretch: 1px;
 	margin-right: 6px;
 	white-space: nowrap;
 }
 #phoneContact {
 	position: relative;
-	top: 3px;
+	top: 1px;
 	margin-right: 3px;
 	margin-left: 6px;
 	height: 10px;
 }
 #instagram{
 	position: relative;
-	top: 3px;
+	top: 1px;
 	margin-right: 3px;
 	height: 10px;
 }
@@ -395,7 +394,7 @@ div#aplicaciones {
 }
 #emailcontact {
 	position: relative;
-	top: 3px;
+	top: 1px;
 	margin-right: 3px;
 	height: 10px;
 }
