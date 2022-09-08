@@ -369,7 +369,7 @@ div#aplicaciones {
 }
 #footer2 a{
 	color: #969696;
-	font-size: .5em;
+	font-size: 5pt;
 	font-weight: bold;
 	text-decoration: none;
 	font-family: "Quicksand_Light";
@@ -397,9 +397,4 @@ div#aplicaciones {
 	top: 3px;
 	margin-right: 3px;
 	height: 10px;
-}
-@media (min-width: 320px) and (max-width: 350px){
-	#footer2 a{
-		font-size: 5pt;
-	}
 }
