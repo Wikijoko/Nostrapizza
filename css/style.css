@@ -361,7 +361,7 @@ div#aplicaciones {
 #footer2 {
 	width: 100%;
 	position:relative;
-	top: 445px;
+	top: 440px;
 	text-decoration: none;
 	color: #939598;
 	display: flex;
@@ -369,7 +369,7 @@ div#aplicaciones {
 }
 #footer2 a{
 	color: #969696;
-	font-size: 5pt;
+	font-size: 3pt;
 	font-weight: bold;
 	text-decoration: none;
 	font-family: "Quicksand_Light";
