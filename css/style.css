@@ -71,14 +71,13 @@ a#phone {
 	box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 3px;
 }
 .text {
-	font-family: "Quicksand_Bold";
 	text-decoration: none;
 	color: black;
 	position: absolute;
 	right: 40px;
 	top: 10px;
 	text-align: center;
-	font-weight: bold; 
+	font-weight: bold;
 	font-size: 8pt;
 	line-height: 1.3;
 }
