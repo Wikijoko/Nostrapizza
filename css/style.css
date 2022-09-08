@@ -369,12 +369,13 @@ div#aplicaciones {
 }
 #footer2 a{
 	color: #969696;
-	font-size: 3pt;
+	font-size: 5pt;
 	font-weight: bold;
 	text-decoration: none;
 	font-family: "Quicksand_Light";
 	font-stretch: 1px;
 	margin-right: 6px;
+	white-space: nowrap;
 }
 #phoneContact {
 	position: relative;
