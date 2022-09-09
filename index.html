@@ -48,9 +48,17 @@
 	</div>
 	<!-------menu---------->
 	<div id="menus">
-	<div id="entradas">
-		<a id="entradasText" href="">Entradas</a>
+	<div id="entradas" onclick="menu1()">
+			<p id="entradasText" id="entradasBoton">Entradas</p>
 	</div>
+	<div id="menuEntradas">
+		 <div class="botonEntradas">
+		 	<div id="tituloEntradas" onclick="devolver()">Entradas</div>
+		 	<div id="volverEntradas"></div>
+		 </div>
+		 <div class="platosEntradas"></div>
+		 </div>
+
 	<div id="saladas">
 		<a id="saladasText" href="">Saladas</a>
 	</div>
@@ -84,5 +92,6 @@
 		</div>
 	</div>
 	</div>
+	<script src="main.js"></script>
 </body>
 </html>
