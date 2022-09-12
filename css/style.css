@@ -216,19 +216,18 @@ div#aplicaciones {
 }
 
 /*---------------entradas----------------*/
-#entradas {
+div#entradas {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #E8A3B1;
+	background-color: rgba(228, 159, 173, 0.4);
 	z-index: 3;
 }
 
 #entradasText {
 	font-family: "Quicksand_Light";
-	font-weight: bold;
+	font-weight: bolder;
 	text-decoration: none;
-	color: white;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -239,6 +238,7 @@ div#aplicaciones {
 	font-size: 1.6em;
 	display: all;
 	z-index: 5;
+	color: #4D4D4D;
 }
 
 #menuEntradas {
@@ -389,7 +389,7 @@ div#aplicaciones {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #909295;
+	background-color: rgba(143,145,148,0.4);
 	opacity: .9;
 	top:80px;
 }
@@ -397,7 +397,7 @@ div#aplicaciones {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: #4D4D4D;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -429,14 +429,14 @@ div#aplicaciones {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #F6D73E;
+	background-color: rgba(242,211,62,0.4);
 	top:160px;
 }
 #pizzasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: #4D4D4D;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -480,7 +480,7 @@ div#aplicaciones {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #909295;
+	background-color: rgba(143,145,148,0.4);
 	opacity: .9;
 	top:240px;
 }
@@ -489,7 +489,7 @@ div#aplicaciones {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: #4D4D4D;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -533,14 +533,14 @@ div#aplicaciones {
 	position: absolute;
 	width: 100%;
 	height: 100px;
-	background-color: #A1CEE3;
+	background-color: rgba(157,202,223,0.4);
 	top:320px;
 }
 #bebidasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: #4D4D4D;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -573,7 +573,7 @@ div#aplicaciones {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: #4D4D4D;
+	background-color: white;
 	top: 400px;
 	border-top-left-radius: 1.5em;
 	border-top-right-radius: 1.5em;
@@ -584,35 +584,36 @@ div#aplicaciones {
 
 #footerText1 {
 	text-decoration: none;
-	color: #939598;
+	color: #4D4D4D;
 	position: absolute;
 	top: 20px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	font-weight: bolder;
 }
 
 #footerText1 a{
-	color: #969696;
+	color: #4D4D4D;
 	margin-left: 5px;
 	text-decoration: none;
 	font-family: "Quicksand_Light";
 	font-size: .8em;
-	font-weight: 700;
+	font-weight: bolder;
 }	
 #footer2 {
 	width: 100%;
 	position:absolute;
 	top: 440px;
 	text-decoration: none;
-	color: #939598;
+	color: #4D4D4D;
 	display: flex;
 	justify-content: center;
 	z-index: 7;
 }
 #footer2 a{
-	color: #969696;
-	font-size: 7pt;
+	color: #4D4D4D;
+	font-size: 6pt;
 	font-weight: bold;
 	text-decoration: none;
 	font-stretch: 1px;
