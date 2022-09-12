@@ -249,6 +249,7 @@ div#aplicaciones {
 	height: 430px;
 	background-color: pink;
 	left: -100%;
+	overflow: scroll;
 }
 
 .botonEntradas {
@@ -282,22 +283,23 @@ div#aplicaciones {
 	top: 0px;
 	right: 0px;
 	margin-top: 5px;
+	z-index: 7;
 }
 #platosEntradas {
 	position: absolute;
 	top: 40px;
 	width: 100%;
-	height: 400px;
-	z-index: 7;
+	height: 540px;
+	z-index: 6;
 }
 #plato1 {
 	display: flex;
 	justify-content: space-around;
 	position: absolute;
-	left: 10%;
+	left: 5%;
 	top: 30px;
 	height:100px;
-	width: 80%;
+	width: 90%;
 	background-color: gray;
 	z-index: 7;
 	border-radius: 10pt;
@@ -307,20 +309,14 @@ div#aplicaciones {
 	position: absolute;
 	top: 9px;
 	left: 10px;
-	width: 25%;
-	height: 80px;
+	width: 23%;
+	height: 77px;
 	background-image: url(../img/Linferno.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	border-radius: 5pt 5pt;
+	box-shadow: rgba(0, 0, 0, 0.75) 2px 2px 3px;
 
-}
-#titlePlato1{
-	position: absolute;
-	width: 50%
-	height:	100px;
-	margin-left: 10px;
-	margin-bottom: 10px;
 }
 #textoPlato1 {
 	position: absolute;
@@ -328,14 +324,62 @@ div#aplicaciones {
 	width: 50%;
 	height: 80px;
 	margin-left: 50px;
-	margin-top: 10px;
-	white-space: pre-line;
 }
 #textoPlato1 span{
 	font-size: 8pt;
 }
-
-
+#titlePlato1 {
+	font-family: "Quicksand_Bold";
+	margin-top: 20px;
+	font-size: 10pt;
+	margin-bottom: 5px;
+}
+#precioPlato1 {
+	position: absolute;
+	right: 15px;
+	top: 40%;
+	margin-left: 20px;
+}
+#plato2 {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	left: 5%;
+	top: 150px;
+	height:100px;
+	width: 90%;
+	background-color: gray;
+	z-index: 7;
+	border-radius: 10pt;
+	overflow-wrap: break-word;
+}
+#plato3{
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	left: 5%;
+	top: 270px;
+	height:100px;
+	width: 90%;
+	background-color: gray;
+	z-index: 7;
+	border-radius: 10pt;
+	overflow-wrap: break-word;
+}
+#plato4 {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	left: 5%;
+	top: 390px;
+	height:100px;
+	width: 90%;
+	background-color: gray;
+	z-index: 7;
+	border-radius: 10pt;
+	overflow-wrap: break-word;
+	padding-bottom: 20px;
+}
 #saladas {
 	position: absolute;
 	width: 100%;
@@ -460,7 +504,7 @@ div#aplicaciones {
 }	
 #footer2 {
 	width: 100%;
-	position:relative;
+	position:absolute;
 	top: 440px;
 	text-decoration: none;
 	color: #939598;
@@ -475,7 +519,7 @@ div#aplicaciones {
 	text-decoration: none;
 	font-stretch: 1px;
 	margin-right: 6px;
-	white-space: nowrap;
+	white-space: nowrap
 }
 #phoneContact {
 	position: relative;
