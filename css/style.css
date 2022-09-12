@@ -248,7 +248,7 @@ div#aplicaciones {
 	width: 100%;
 	height: 430px;
 	background-color: pink;
-	/*left: -100%;*/
+	left: -100%;
 }
 
 .botonEntradas {
