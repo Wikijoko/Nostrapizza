@@ -215,7 +215,7 @@ div#aplicaciones {
 	top: -57px;
 }
 
-
+/*---------------entradas----------------*/
 #entradas {
 	position: absolute;
 	width: 100%;
@@ -309,7 +309,7 @@ div#aplicaciones {
 	position: absolute;
 	top: 9px;
 	left: 10px;
-	width: 23%;
+	width: 77px;
 	height: 77px;
 	background-image: url(../img/Linferno.jpg);
 	background-size: contain;
@@ -380,6 +380,11 @@ div#aplicaciones {
 	overflow-wrap: break-word;
 	padding-bottom: 20px;
 }
+
+
+
+/*---------------------saladas----------------*/
+
 #saladas {
 	position: absolute;
 	width: 100%;
@@ -402,6 +407,24 @@ div#aplicaciones {
 	margin-left: -85.055px;
 	font-size: 1.6em;
 }
+#menuSaladas {
+	display: flex;
+	position: absolute;
+	z-index: 6;
+	width: 100%;
+	height: 430px;
+	background-color: white;
+	left: -100%;
+	overflow: scroll;
+}
+.botonSaladas {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #909295;
+	z-index: 7;
+}
+/*-----------------pizzas--------------*/
 #pizzas {
 	position: absolute;
 	width: 100%;
@@ -423,6 +446,36 @@ div#aplicaciones {
 	margin-left: -153.235px;
 	font-size: 1.4em;
 }
+#menuPizzas {
+	display: flex;
+	position: absolute;
+	z-index: 6;
+	width: 100%;
+	height: 430px;
+	background-color: yellow;
+	left: -100%;
+	overflow: scroll;
+}
+.botonPizzas {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #F6D73E;
+	z-index: 7;
+}
+#tituloPizzas{
+	font-size: 16pt;
+	margin-top: 12px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	font-family: "Quicksand_Light";
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 300px;
+}
+/*--------------Sobremesa---------------*/
 #sobremesa {
 	position: absolute;
 	width: 100%;
@@ -446,7 +499,36 @@ div#aplicaciones {
 	margin-left: -124.85px;
 	font-size: 1.6em;
 }
-
+#menuSobremesas {
+	display: flex;
+	position: absolute;
+	z-index: 6;
+	width: 100%;
+	height: 430px;
+	background-color: white;
+	left: -100%;
+	overflow: scroll;
+}
+.botonSobremesas {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #909295;
+	z-index: 7;
+}
+#tituloSobremesas{
+	font-size: 16pt;
+	margin-top: 12px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	font-family: "Quicksand_Light";
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	width: 300px;
+}
+/*-----------------------Bebidas---------------*/
 #bebidas {
 	position: absolute;
 	width: 100%;
@@ -468,7 +550,23 @@ div#aplicaciones {
 	margin-left: -79.54px;
 	font-size: 1.6em;
 }
-
+#menuBebidas {
+	display: flex;
+	position: absolute;
+	z-index: 6;
+	width: 100%;
+	height: 430px;
+	background-color: blue;
+	left: -100%;
+	overflow: scroll;
+}
+.botonBebidas {
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background-color: #A1CEE3;
+	z-index: 7;
+}
 /*------footer-----*/
 
 #footer {
