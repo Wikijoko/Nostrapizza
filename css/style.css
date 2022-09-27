@@ -9,7 +9,7 @@ body {
 }
 html, body {
     max-width: 100% !important;
-    overflow-x: hidden; 
+    overflow-x: hidden !important; 
 }
 @font-face {
 	font-family: "Quicksand_Bold";
@@ -28,9 +28,13 @@ div#img {
 }
 
 #imgCentral {
-	width: 100%;
-	height: 330px;
+	background-image: url(../img/2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 45vh;
 	opacity: .5;
+	object-fit: contain;
 }
 
 div.menu {
@@ -99,120 +103,33 @@ img.barras{
 /*----------Logo-----------*/
 
 #logoPropiedades{
-	width: 250px;
-	height: 155px;
+	width: 55vw;
+	height: 20vh;
 }
 
 #logo {
 	position: absolute;
-	width: 350px;
+	float: left;
+	width: 100%;
 	height: 230px;
-	top: 70px;
-	left: 50%;
-	transform: translate(-35%, 0);
+	top: 15vh;
+	left: 20vw;
+	margin: auto;
 }
 
-/*----------Aplicaciones-----------*/	
-
-div#aplicaciones {
-	display: flex;
-	transform: translate(0,-20px);
+@media only screen and (min-height: 800px) {
+	#imgCentral {
+		height: 37vh;
+	}
 }
-.boton1 {
-	width: 170px;
-	height: 70px;
-	position: relative;
-	transform: translate(-3%, -20px);
-	z-index: 2;
-}
-.boton2 {
-	width: 180px;
-	height: 70px;
-	position: relative;
-	transform: translate(-26%, -20px);
-	z-index: 1;
-}
-.boton3 {
-	width: 170px;
-	height: 70px;
-	position: relative;
-	transform: translate(-57%, -20px);
-}
-/*---------------Media query------------------*/
-@media (max-width:400px) {
-	.boton1 {
-	width: 175px;
-	height: 75px;
-	position: relative;
-	transform: translate(-7%, -20px);
-	z-index: 2;
-}
-.boton2 {
-	width: 180px;
-	height: 75px;
-	position: relative;
-	transform: translate(-35%, -20px);
-	z-index: 1;
-}
-.boton3 {
-	width: 200px;
-	height: 75px;
-	position: relative;
-	transform: translate(-73%, -20px);
-}
-}
-@media (max-width:375px) {
-	.boton1 {
-	width: 175px;
-	height: 75px;
-	position: relative;
-	transform: translate(-7%, -20px);
-	z-index: 2;
-}
-.boton2 {
-	width: 180px;
-	height: 75px;
-	position: relative;
-	transform: translate(-38%, -20px);
-	z-index: 1;
-}
-.boton3 {
-	width: 180px;
-	height: 75px;
-	position: relative;
-	transform: translate(-82%, -20px);
-}
-}
-@media (min-width: 320px) and (max-width: 360px){
-	.boton1 {
-	width: 165px;
-	height: 63px;
-	position: relative;
-	transform: translate(-7%, -20px);
-	z-index: 2;
-}
-.boton2 {
-	width: 165px;
-	height: 63px;
-	position: relative;
-	transform: translate(-36%, -20px);
-	z-index: 1;
-}
-.boton3 {
-	width: 165px;
-	height: 63px;
-	position: relative;
-	transform: translate(-75%, -20px);
-}
-}
-/*--------Media query End---------*/
 
 /*------menu------*/
 
 #menus {
 	display: block;
 	position: relative;
-	top: -57px;
+	top: -4px;
+	height: 440px;
 }
 
 /*---------------entradas----------------*/
@@ -220,7 +137,7 @@ div#entradas {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: rgba(228, 159, 173, 0.4);
+	/*background-color: rgba(228, 159, 173, 0.4);*/
 	z-index: 3;
 }
 
@@ -236,9 +153,18 @@ div#entradas {
 	margin-top: -11.5px;
 	margin-left: -98.86px;
 	font-size: 1.6em;
-	display: all;
+	display: inline-block;
 	z-index: 5;
 	color: #4D4D4D;
+}
+#entradasText::before {
+	content: '';
+	position: absolute;
+	width: 220px;
+	height: 2px;
+	background-color: #959595;
+	top: 45px;
+	left: -18px;
 }
 
 #menuEntradas {
@@ -389,14 +315,13 @@ div#entradas {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: rgba(143,145,148,0.4);
-	opacity: .9;
+	/*background-color: rgba(143,145,148,0.4);*/
 	top:80px;
 }
 #saladasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: bolder;
 	color: #4D4D4D;
 	text-transform: uppercase;
 	letter-spacing: 8px;
@@ -406,6 +331,15 @@ div#entradas {
 	margin-top: -11.5px;
 	margin-left: -85.055px;
 	font-size: 1.6em;
+}
+#saladasText::before {
+	content: '';
+	position: absolute;
+	width: 220px;
+	height: 2px;
+	background-color: #959595;
+	top: 45px;
+	left: -33px;
 }
 #menuSaladas {
 	display: flex;
@@ -429,13 +363,13 @@ div#entradas {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: rgba(242,211,62,0.4);
+	/*background-color: rgba(242,211,62,0.4);*/
 	top:160px;
 }
 #pizzasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: bolder;
 	color: #4D4D4D;
 	text-transform: uppercase;
 	letter-spacing: 8px;
@@ -445,6 +379,15 @@ div#entradas {
 	margin-top: -11.5px;
 	margin-left: -153.235px;
 	font-size: 1.4em;
+}
+#pizzasText::before {
+	content: '';
+	position: absolute;
+	width: 360px;
+	height: 2px;
+	background-color: #959595;
+	top: 45px;
+	left: -33px;
 }
 #menuPizzas {
 	display: flex;
@@ -480,8 +423,7 @@ div#entradas {
 	position: absolute;
 	width: 100%;
 	height: 80px;
-	background-color: rgba(143,145,148,0.4);
-	opacity: .9;
+	/*background-color: rgba(143,145,148,0.4);*/
 	top:240px;
 }
 
@@ -498,6 +440,15 @@ div#entradas {
 	margin-top: -11.5px;
 	margin-left: -124.85px;
 	font-size: 1.6em;
+}
+#sobremesaText::before {
+	content: '';
+	position: absolute;
+	width: 300px;
+	height: 2px;
+	background-color: #959595;
+	top: 45px;
+	left: -33px;
 }
 #menuSobremesas {
 	display: flex;
@@ -532,8 +483,8 @@ div#entradas {
 #bebidas {
 	position: absolute;
 	width: 100%;
-	height: 100px;
-	background-color: rgba(157,202,223,0.4);
+	height: 80px;
+	/*background-color: rgba(157,202,223,0.4);*/
 	top:320px;
 }
 #bebidasText {
@@ -549,6 +500,15 @@ div#entradas {
 	margin-top: -18.5px;
 	margin-left: -79.54px;
 	font-size: 1.6em;
+}
+#bebidasText::before {
+	content: '';
+	position: absolute;
+	width: 215px;
+	height: 2px;
+	background-color: #959595;
+	top: 45px;
+	left: -33px;
 }
 #menuBebidas {
 	display: flex;
@@ -572,7 +532,7 @@ div#entradas {
 #footer {
 	position: absolute;
 	width: 100%;
-	height: 80px;
+	height: 160px;
 	background-color: white;
 	top: 400px;
 	border-top-left-radius: 1.5em;
@@ -641,4 +601,38 @@ div#entradas {
 	top: 1px;
 	margin-right: 3px;
 	height: 10px;
+}
+#newFooter{
+	width: 100%;
+	height: 200px;
+	background-color: #EEEEEE;
+	position: fixed;
+	z-index: 10;
+	top: 88%;
+	display: flex;
+	justify-content: space-around;
+}
+#uber {
+	background-image: url(../img/uber1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 90px;
+	top: 2px;
+}
+#glovo {
+	background-image: url(../img/glovo1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 90px;
+	top: 2px;
+}
+#bolt {
+	background-image: url(../img/bolt1.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 90px;
+	top: 2px;
 }
