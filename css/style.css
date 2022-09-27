@@ -153,7 +153,8 @@ div#entradas {
 	margin-top: -11.5px;
 	margin-left: -98.86px;
 	font-size: 1.6em;
-	display: inline-block;
+	display: flex;
+	justify-content: center;
 	z-index: 5;
 	color: #E49FAD;
 }
@@ -164,7 +165,7 @@ div#entradas {
 	height: 2px;
 	background-color: #E49FAD;
 	top: 45px;
-	left: -87px;
+	align-items: center;
 }
 
 #menuEntradas {
