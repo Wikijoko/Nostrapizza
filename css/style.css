@@ -29,12 +29,12 @@ div#img {
 
 #imgCentral {
 	background-image: url(../img/2.jpg);
-	background-size: contain;
+	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 45vh;
+	height: 30vh;
 	opacity: .5;
-	object-fit: contain;
 }
 
 div.menu {
@@ -112,7 +112,7 @@ img.barras{
 	float: left;
 	width: 100%;
 	height: 230px;
-	top: 15vh;
+	top: 8vh;
 	left: 20vw;
 	margin: auto;
 }
@@ -155,16 +155,16 @@ div#entradas {
 	font-size: 1.6em;
 	display: inline-block;
 	z-index: 5;
-	color: #4D4D4D;
+	color: #E49FAD;
 }
 #entradasText::before {
 	content: '';
 	position: absolute;
-	width: 220px;
+	width: 360px;
 	height: 2px;
-	background-color: #959595;
+	background-color: #E49FAD;
 	top: 45px;
-	left: -18px;
+	left: -87px;
 }
 
 #menuEntradas {
@@ -322,7 +322,7 @@ div#entradas {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bolder;
-	color: #4D4D4D;
+	color: #8F9194;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -335,11 +335,11 @@ div#entradas {
 #saladasText::before {
 	content: '';
 	position: absolute;
-	width: 220px;
+	width: 360px;
 	height: 2px;
-	background-color: #959595;
+	background-color: #8F9194;
 	top: 45px;
-	left: -33px;
+	left: -102px;
 }
 #menuSaladas {
 	display: flex;
@@ -370,7 +370,7 @@ div#entradas {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bolder;
-	color: #4D4D4D;
+	color: #F2D33E;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -385,7 +385,7 @@ div#entradas {
 	position: absolute;
 	width: 360px;
 	height: 2px;
-	background-color: #959595;
+	background-color: #F2D33E;
 	top: 45px;
 	left: -33px;
 }
@@ -431,7 +431,7 @@ div#entradas {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: #4D4D4D;
+	color: #8F9194;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -444,11 +444,11 @@ div#entradas {
 #sobremesaText::before {
 	content: '';
 	position: absolute;
-	width: 300px;
+	width: 360px;
 	height: 2px;
-	background-color: #959595;
+	background-color: #8F9194;
 	top: 45px;
-	left: -33px;
+	left: -57px;
 }
 #menuSobremesas {
 	display: flex;
@@ -491,7 +491,7 @@ div#entradas {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: #4D4D4D;
+	color: #9DCADF;
 	text-transform: uppercase;
 	letter-spacing: 8px;
 	position: absolute;
@@ -504,11 +504,11 @@ div#entradas {
 #bebidasText::before {
 	content: '';
 	position: absolute;
-	width: 215px;
+	width: 360px;
 	height: 2px;
-	background-color: #959595;
+	background-color: #9DCADF;
 	top: 45px;
-	left: -33px;
+	left: -102px;
 }
 #menuBebidas {
 	display: flex;
