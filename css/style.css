@@ -618,7 +618,7 @@ div#entradas {
 	background-repeat: no-repeat;
 	width: 100px;
 	height: 90px;
-	top: 2px;
+	top: 1px;
 }
 #glovo {
 	background-image: url(../img/glovo1.png);
@@ -626,7 +626,7 @@ div#entradas {
 	background-repeat: no-repeat;
 	width: 100px;
 	height: 90px;
-	top: 2px;
+	top: 1px;
 }
 #bolt {
 	background-image: url(../img/bolt1.png);
@@ -634,5 +634,5 @@ div#entradas {
 	background-repeat: no-repeat;
 	width: 100px;
 	height: 90px;
-	top: 2px;
+	top: 1px;
 }
