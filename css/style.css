@@ -1,15 +1,12 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
 }
 html{
-	height: 100%;
-}
-body {
-	min-height: 100%;
 }
 html, body {
     max-width: 100% !important;
-    overflow-x: hidden !important; 
+    overflow-x: hidden !important;
 }
 @font-face {
 	font-family: "Quicksand_Bold";
@@ -21,10 +18,14 @@ html, body {
 }
 body {
 	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
 }
 /*--------Header--------*/
 div#img {
 	position: relative;
+	height: 40vh;
 }
 
 #imgCentral {
@@ -33,7 +34,7 @@ div#img {
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 100vw;
-	height: 30vh;
+	height: 40vh;
 	opacity: .5;
 }
 
@@ -117,28 +118,72 @@ img.barras{
 	margin: auto;
 }
 
-@media only screen and (min-height: 800px) {
-	#imgCentral {
-		height: 37vh;
-	}
+/*-----app-------*/
+#app {
+	display: flex;
+	position: relative;
+	top: -8vh;
+	width: 100%;
 }
-
+#uber {
+	position: relative;
+	width: 45vw;
+	height: 9vh;
+	left: -5px;
+	z-index: 3;
+}
+#bolt {
+	position: relative;
+	width: 45vw;
+	height: 9vh;
+	left: -30%;
+	z-index: 2;
+}
+#glovo {
+	position: relative;
+	width: 45vw;
+	height: 9vh;
+	left: -70%;
+}
 /*------menu------*/
 
 #menus {
 	display: block;
 	position: relative;
-	top: -4px;
-	height: 440px;
+	top: 0px;
+	height: 500px;
+	background: white;
+	z-index: 4;
 }
-
+#menu1 {
+	display: flex;
+	position: relative;
+	top: 20px;
+}
+#menu2 {
+	display: flex;
+	position: relative;
+	top: 40px;
+}
+#menu3 {
+	display: flex;
+	position: relative;
+	top: 60px;
+}
 /*---------------entradas----------------*/
 div#entradas {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	/*background-color: rgba(228, 159, 173, 0.4);*/
+	position: relative;
+	width: 35%;
+	height: 150px;
 	z-index: 3;
+	margin: auto;
+	background-image: url(../img/NostroPane.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #entradasText {
@@ -146,26 +191,12 @@ div#entradas {
 	font-weight: bolder;
 	text-decoration: none;
 	text-transform: uppercase;
-	letter-spacing: 8px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -11.5px;
-	margin-left: -98.86px;
-	font-size: 1.6em;
-	display: flex;
-	justify-content: center;
+	letter-spacing: 4px;
+	position: relative;
+	margin: auto;
+	font-size: 2vh;
 	z-index: 5;
-	color: #E49FAD;
-}
-#entradasText::before {
-	content: '';
-	position: absolute;
-	width: 360px;
-	height: 2px;
-	background-color: #E49FAD;
-	top: 45px;
-	align-items: center;
+	color: white;
 }
 
 #menuEntradas {
@@ -313,34 +344,28 @@ div#entradas {
 /*---------------------saladas----------------*/
 
 #saladas {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	/*background-color: rgba(143,145,148,0.4);*/
-	top:80px;
+	position: relative;
+	width: 35%;
+	height: 150px;
+	margin: auto;
+	background: url(../img/SaladaNostra.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 #saladasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bolder;
-	color: #8F9194;
+	color: white;
 	text-transform: uppercase;
-	letter-spacing: 8px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -11.5px;
-	margin-left: -85.055px;
-	font-size: 1.6em;
-}
-#saladasText::before {
-	content: '';
-	position: absolute;
-	width: 360px;
-	height: 2px;
-	background-color: #8F9194;
-	top: 45px;
-	left: -102px;
+	letter-spacing: 4px;
+	position: relative;
+	font-size: 2vh;
 }
 #menuSaladas {
 	display: flex;
@@ -361,35 +386,29 @@ div#entradas {
 }
 /*-----------------pizzas--------------*/
 #pizzas {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	/*background-color: rgba(242,211,62,0.4);*/
-	top:160px;
+	position: relative;
+	width: 35%;
+	height: 150px;
+	margin:auto;
+	background-image: url(../img/Linferno.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #pizzasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bolder;
-	color: #F2D33E;
+	color: white;
 	text-transform: uppercase;
-	letter-spacing: 8px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -11.5px;
-	margin-left: -153.235px;
-	font-size: 1.4em;
+	letter-spacing: 6px;
+	position: relative;
+	font-size: 2vh;
 }
-#pizzasText::before {
-	content: '';
-	position: absolute;
-	width: 360px;
-	height: 2px;
-	background-color: #F2D33E;
-	top: 45px;
-	left: -33px;
-}
+
 #menuPizzas {
 	display: flex;
 	position: absolute;
@@ -421,35 +440,28 @@ div#entradas {
 }
 /*--------------Sobremesa---------------*/
 #sobremesa {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	/*background-color: rgba(143,145,148,0.4);*/
-	top:240px;
+	position: relative;
+	width: 35%;
+	height: 150px;
+	margin: auto;
+	background-image: url(../img/Tiramisu.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #sobremesaText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: #8F9194;
+	color: white;
 	text-transform: uppercase;
-	letter-spacing: 8px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -11.5px;
-	margin-left: -124.85px;
-	font-size: 1.6em;
-}
-#sobremesaText::before {
-	content: '';
-	position: absolute;
-	width: 360px;
-	height: 2px;
-	background-color: #8F9194;
-	top: 45px;
-	left: -57px;
+	letter-spacing: 2px;
+	position: relative;
+	font-size: 2vh;
 }
 #menuSobremesas {
 	display: flex;
@@ -482,35 +494,29 @@ div#entradas {
 }
 /*-----------------------Bebidas---------------*/
 #bebidas {
-	position: absolute;
-	width: 100%;
-	height: 80px;
-	/*background-color: rgba(157,202,223,0.4);*/
-	top:320px;
+	position: relative;
+	width: 35%;
+	height: 150px;
+	margin: auto;
+	background-image: url(../img/CocaCola.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #bebidasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: #9DCADF;
+	color: black;
 	text-transform: uppercase;
-	letter-spacing: 8px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -18.5px;
-	margin-left: -79.54px;
-	font-size: 1.6em;
+	letter-spacing: 4px;
+	position: relative;
+	font-size: 2vh;
 }
-#bebidasText::before {
-	content: '';
-	position: absolute;
-	width: 360px;
-	height: 2px;
-	background-color: #9DCADF;
-	top: 45px;
-	left: -102px;
-}
+
 #menuBebidas {
 	display: flex;
 	position: absolute;
@@ -531,16 +537,16 @@ div#entradas {
 /*------footer-----*/
 
 #footer {
-	position: absolute;
+	position: relative;
 	width: 100%;
-	height: 160px;
+	height: 70px;
 	background-color: white;
-	top: 400px;
 	border-top-left-radius: 1.5em;
 	border-top-right-radius: 1.5em;
 	text-decoration: none;
 	display: flex;
 	z-index: 7;
+	background: #989898;
 }
 
 #footerText1 {
@@ -564,13 +570,16 @@ div#entradas {
 }	
 #footer2 {
 	width: 100%;
-	position:absolute;
-	top: 440px;
+	position:relative;
 	text-decoration: none;
 	color: #4D4D4D;
 	display: flex;
 	justify-content: center;
 	z-index: 7;
+	background: #989898;
+	top: 6vh;
+	height: 30px;
+	overflow: hidden;
 }
 #footer2 a{
 	color: #4D4D4D;
@@ -579,7 +588,7 @@ div#entradas {
 	text-decoration: none;
 	font-stretch: 1px;
 	margin-right: 6px;
-	white-space: nowrap
+	white-space: nowrap;
 }
 #phoneContact {
 	position: relative;
@@ -603,7 +612,7 @@ div#entradas {
 	margin-right: 3px;
 	height: 10px;
 }
-#newFooter{
+/*#newFooter{
 	width: 100%;
 	height: 200px;
 	background-color: #EEEEEE;
@@ -613,7 +622,7 @@ div#entradas {
 	display: flex;
 	justify-content: space-around;
 }
-#uber {
+/*---#uber {
 	background-image: url(../img/uber1.png);
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -636,4 +645,8 @@ div#entradas {
 	width: 100px;
 	height: 90px;
 	top: 1px;
+}*/----
+body {
+	margin: 0;
+	overflow: hidden;
 }
