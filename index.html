@@ -29,19 +29,16 @@
 		</div>
 		<div class="menu">
 	 <a id="bars" href=""><img class="barras" src="img/menuMenu.png"></a>
-	 	<div id="call">
-	 	<a id="phone" hreft=""></a><img class="telefono" src="img/phoneMenu.png"> <a href="tel:+351-21-164-6734" class="text">+351-21-164-6734 <br> PICK UP!</a> </a> 
-	 	</div>
 	 	</div>
 	<nav id="app">
 		<div>
-			<a href=""> <img src="img/Uber.png" id="uber"></i></a>
+			<a href=""> <img src="img/uber.png" id="uber"></i></a>
 		</div>
 		<div>
-			<a href=""> <img src="img/Bolt.png" id="bolt"></i></a>
+			<a href=""> <img src="img/bolt.png" id="bolt"></i></a>
 		</div>
 		<div>
-			<a href=""> <img src="img/Glovo.png" id="glovo"></i></a>
+			<a href=""> <img src="img/glovo.png" id="glovo"></i></a>
 		</div>
 	</nav>
 	</div>
@@ -52,8 +49,9 @@
 	<!-------menu---------->
 	<div id="menus">
 	<!-------------------entradas----------------------->
-	<div id="menu1"><div id="entradas" onclick="menu1()">
-			<p id="entradasText" id="entradasBoton">Entradas</p>
+	<div id="menu1">
+		<p id="entradasText" id="entradasBoton">Entradas</p>
+		<div id="entradas" onclick="menu1()">
 	</div>
 	<div id="menuEntradas">
 		 <div class="botonEntradas">
@@ -109,8 +107,8 @@
 		 </div>
 	<!----------------------------saladas-------------------->
 	<div id="saladas">
-		<p id="saladasText" onclick="menu2()">Saladas</p>
 	</div>
+	<p id="saladasText" onclick="menu2()">Saladas</p>
 	 <div id="menuSaladas">
 	 	<div class="botonSaladas">
 		 	<div id="tituloEntradas">Saladas</div>
@@ -177,8 +175,8 @@
 	</div>
 	 <!---------------------------pizzas--------------------->
 	<div id="menu2"><div id="pizzas">
-		<p id="pizzasText" onclick="menu3()">Pizzas</p>
 	</div>
+	<p id="pizzasText" onclick="menu3()">Pizzas</p>
 	<div id="menuPizzas">
 		<div class="botonPizzas">
 		<div id="tituloPizzas">Pizzas - Pinsas</div>
@@ -244,8 +242,8 @@
 	</div>
 	<!-----------------------Sobremesa--------------------->
 	<div id="sobremesa">
-		<p id="sobremesaText" onclick="menu4()">Sobremesas</p>
 	</div>
+	<p id="sobremesaText" onclick="menu4()">Sobremesas</p>
 <div id="menuSobremesas">
 		<div class="botonSobremesas">
 		<div id="tituloSobremesas">Sobremesas</div>
@@ -311,9 +309,10 @@
 	</div>
 	</div>
 	<!-------------bebidas----------------->
-	<div id="menu3"><div id="bebidas">
-		<p id="bebidasText" onclick="menu5()">Bebidas</p>
+	<div id="menu3">
+		<div id="bebidas">
 	</div>
+	<p id="bebidasText" onclick="menu5()">Bebidas</p>
 <div id="menuBebidas">
 		<div class="botonBebidas">
 		<div id="tituloEntradas">Bebidas</div>
@@ -379,31 +378,26 @@
 	</div>
 	</div>
 	<!---------------Footer---------------->
+	<div id="delivery">
+		<div id="deliverybox">
+			<div id="deliveryimg">
+				
+			</div>
+		</div>	
 	</div>
+	</div>
+	<!----------delivery----------->
 	<div id="footer">
-		<div id="footerText1"> 
-		  <a href="">Inicio</a>
-		  <a href="">Horário</a>
-		  <a href="">Localização</a> 
-		  <a href="">Pagamentos</a>
-		</div>
-	<div id="footer2">
-		<div>
-			<a href="tel:+351-21-164-6734"><img src="img/phonecontanct.png" id="phoneContact">+351-21-164-6734</a>
-		</div>
-		<div>
-			<a href="https://www.instagram.com/nostrapizzatelheiras/?hl=en"><img src="img/instagram.png" id="instagram">@Nostrapizzatelheiras</a>
-		</div>
-		<div id="email">
-			<a href="mailto:nostrapizzalx.telheiras@gmail.com<"><img src="img/emailcontact.png" id="emailcontact">nostrapizzalx.telheiras@gmail.com</a>
+		<div id="phonebox">
+			<p> </p>
+			<div id="phoneimg">
+			</div>
+			<div id="phonetext">
+				<a href="tel:+351211646734"> +351-21-164-6734 <p> PICK UP!</p></a>
+			</div>
 		</div>
 	</div>
 	</div>
-	<!--------<div id="newFooter"> 
-		<a href="" id="uber"></a>
-		<a href="" id="glovo"></a>
-		<a href="" id="bolt"></a>
-	</div>------->
 	<script src="main.js"></script>
 </body>
 </html>

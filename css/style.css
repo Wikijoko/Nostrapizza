@@ -19,7 +19,6 @@ html, body {
 body {
 	margin: 0;
 	padding: 0;
-	height: 100%;
 	overflow: hidden;
 }
 /*--------Header--------*/
@@ -151,7 +150,7 @@ img.barras{
 	display: block;
 	position: relative;
 	top: 0px;
-	height: 500px;
+	height: 600px;
 	background: white;
 	z-index: 4;
 }
@@ -170,6 +169,11 @@ img.barras{
 	position: relative;
 	top: 60px;
 }
+#menu4 {
+	content: '/';
+	background: white;
+	height: 150px;
+}
 /*---------------entradas----------------*/
 div#entradas {
 	position: relative;
@@ -184,6 +188,9 @@ div#entradas {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 15px;
+	opacity: 0.5;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 30px;
 }
 
 #entradasText {
@@ -192,11 +199,14 @@ div#entradas {
 	text-decoration: none;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	position: relative;
+	position: absolute;
 	margin: auto;
 	font-size: 2vh;
 	z-index: 5;
-	color: white;
+	color: black;
+	opacity: 1;
+	top: 45%;
+	left: 12%;
 }
 
 #menuEntradas {
@@ -355,17 +365,22 @@ div#entradas {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	border-radius: 15px;
+	opacity: 0.5;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 30px;
 
 }
 #saladasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bolder;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	position: relative;
+	position: absolute;
 	font-size: 2vh;
+	top: 45%;
+	right: 13%;
 }
 #menuSaladas {
 	display: flex;
@@ -397,16 +412,21 @@ div#entradas {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 15px;
+	opacity: 0.5;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 30px;
 }
 #pizzasText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bolder;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 6px;
-	position: relative;
+	position: absolute;
 	font-size: 2vh;
+	top: 45%;
+	left: 14%;
 }
 
 #menuPizzas {
@@ -451,17 +471,22 @@ div#entradas {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 15px;
+	opacity: 0.5;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 30px;
 }
 
 #sobremesaText {
 	font-family: "Quicksand_Light";
 	text-decoration: none;
 	font-weight: bold;
-	color: white;
+	color: black;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	position: relative;
+	position: absolute;
 	font-size: 2vh;
+	top: 45%;
+	right: 10%;
 }
 #menuSobremesas {
 	display: flex;
@@ -505,6 +530,9 @@ div#entradas {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	border-radius: 15px;
+	opacity: 0.5;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 15px 30px;
 }
 #bebidasText {
 	font-family: "Quicksand_Light";
@@ -513,8 +541,10 @@ div#entradas {
 	color: black;
 	text-transform: uppercase;
 	letter-spacing: 4px;
-	position: relative;
+	position: absolute;
 	font-size: 2vh;
+	top: 45%;
+	right: 39%;
 }
 
 #menuBebidas {
@@ -534,10 +564,43 @@ div#entradas {
 	background-color: #A1CEE3;
 	z-index: 7;
 }
+#bebidas:after {
+	content: ' ';
+	height: 300px;
+	}
+
+/*-------delivery-------*/
+#delivery {
+	position: relative;
+}
+
+#deliverybox {
+	position: fixed;
+	float: right;
+	background-color: #989898;
+	width: 50px;
+	height: 50px;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+	bottom: 90px;
+	right: 0px;
+}
+#deliveryimg {
+	background-image: url(../img/delivery.png);
+	background-position: center;
+	background-size: cover;
+	width: 25px;
+	height: 25px;
+}
+
+
 /*------footer-----*/
 
 #footer {
-	position: relative;
+	position: fixed;
 	width: 100%;
 	height: 70px;
 	background-color: white;
@@ -547,105 +610,42 @@ div#entradas {
 	display: flex;
 	z-index: 7;
 	background: #989898;
+	bottom: 0%;
+	justify-content: space-around;
+	align-items: center;
 }
-
-#footerText1 {
-	text-decoration: none;
-	color: #4D4D4D;
-	position: absolute;
-	top: 20px;
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	font-weight: bolder;
-}
-
-#footerText1 a{
-	color: #4D4D4D;
-	margin-left: 5px;
-	text-decoration: none;
-	font-family: "Quicksand_Light";
-	font-size: .8em;
-	font-weight: bolder;
-}	
-#footer2 {
-	width: 100%;
-	position:relative;
-	text-decoration: none;
-	color: #4D4D4D;
-	display: flex;
-	justify-content: center;
-	z-index: 7;
-	background: #989898;
-	top: 6vh;
-	height: 30px;
-	overflow: hidden;
-}
-#footer2 a{
-	color: #4D4D4D;
-	font-size: 6pt;
-	font-weight: bold;
-	text-decoration: none;
-	font-stretch: 1px;
-	margin-right: 6px;
-	white-space: nowrap;
-}
-#phoneContact {
+#phonebox  {
+	width: 180px;
+	height: 50px;
+	background-color: rgba(175,175,175,0.8);
+	z-index: 8;
 	position: relative;
-	top: 1px;
-	margin-right: 3px;
-	margin-left: 6px;
-	height: 10px;
-}
-#instagram{
-	position: relative;
-	top: 1px;
-	margin-right: 3px;
-	height: 10px;
-}
-#email {
-	margin-right: 6px;
-}
-#emailcontact {
-	position: relative;
-	top: 1px;
-	margin-right: 3px;
-	height: 10px;
-}
-/*#newFooter{
-	width: 100%;
-	height: 200px;
-	background-color: #EEEEEE;
-	position: fixed;
-	z-index: 10;
-	top: 88%;
+	border-radius: 15px;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 }
-/*---#uber {
-	background-image: url(../img/uber1.png);
-	background-size: contain;
+#phoneimg {
+	position: relative;
+	background-image: url(../img/phoneMenu.png);
+	background-size: cover;
+	background-position: center;
 	background-repeat: no-repeat;
-	width: 100px;
-	height: 90px;
-	top: 1px;
+	width: 25px;
+	height: 25px;
+	float: left;
 }
-#glovo {
-	background-image: url(../img/glovo1.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 90px;
-	top: 1px;
+#phonetext a {
+	position: relative;
+	text-decoration: none;
+	color: black;
+	text-align: center;
 }
-#bolt {
-	background-image: url(../img/bolt1.png);
-	background-size: contain;
-	background-repeat: no-repeat;
-	width: 100px;
-	height: 90px;
-	top: 1px;
-}*/----
+#phonetext p {
+	position: relative;
+	left: -3%;	
+}
+
 body {
 	margin: 0;
 	overflow: hidden;
